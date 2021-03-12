@@ -1,0 +1,108 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Please use a code block!</title>
+    <meta property="og:title" content="Please use a code block!" />
+    <meta
+      property="og:description"
+      content="Pasting raw code into a chat or forum hurts readability and makes it harder for people to help you! Use markdown code blocks:
+```
+(your code or error message)
+```"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://codeblockplease.vercel.app/" />
+  </head>
+  <body>
+    <h1>Please use a code block!</h1>
+    <h2>Why?</h2>
+    <p>
+      Pasting raw code into a chat or forum hurts readability and makes it
+      harder for people to help you. The reasons for this are listed below:
+    </p>
+    <ul>
+      <li>
+        <h3>It's hard to read.</h3>
+        <p>
+          Computer code is <em>always</em> rendered using a
+          <em>monospace</em> typeface. This means each character is a set width.
+          W is the same width as I for example. When programmers see code that's
+          not rendered with a monospace typeface, such as in a chat app or
+          internet forum, it's not how they're used to reading code and makes it
+          a little harder to read quickly.
+        </p>
+      </li>
+      <li>
+        <h3>It blends with surrounding text.</h3>
+        <p>
+          Code and discussion should be visually separate. If you're describing
+          a problem in a piece of code then write the code directly underneath
+          without using code blocks, it can be difficult to distinguish where
+          the explanation ends and the code begins.
+        </p>
+      </li>
+      <li>
+        <h3>Some platforms support syntax highlighting!</h3>
+        <p>
+          Most platforms that use Markdown code blocks also support syntax
+          highlighting for common programming languages and file formats! By
+          using a code block with highlighting, it makes the code more readable
+          by programmers who are accustomed to reading code in their editors.
+        </p>
+      </li>
+    </ul>
+    <h2>How do I post code properly?</h2>
+    <p>
+      Most platforms have settled on
+      <a href="https://guides.github.com/features/mastering-markdown/"
+        >Markdown</a
+      >
+      as the preferred formatting language:
+    </p>
+    <pre>
+```js
+(async function(){
+  let books = await getAllBooks();
+  console.log(books);
+})();
+```
+    </pre>
+    <p>
+      Notice how <code>js</code> follows the <code>```</code>, this indicates
+      which syntax highlighting to use.
+    </p>
+    <p>
+      Hopefully this has been informative. Now whenever you're helping someone
+      and they share some code or error messages directly into the chat without
+      using a code block, help them anyway but direct them here so they don't
+      make the same mistake next time!
+    </p>
+    <br />
+    <p>
+      Other similar problems:
+      <a href="https://textnot.pictures">Don't Post Text as an Image</a>,
+      <a href="https://dontasktoask.com">Don't Ask to Ask, Just Ask</a>,
+      <a href="http://xyproblem.info/">The XY Problem</a>,
+      <a href="http://nohello.com/">No Hello</a>.
+    </p>
+    <p>
+      Further reading:
+      <a href="https://stackoverflow.com/help/how-to-ask"
+        >How do I ask a good question?</a
+      >,
+      <a href="http://catb.org/~esr/faqs/smart-questions.html"
+        >How To Ask Questions The Smart Way</a
+      >.
+    </p>
+    <hr />
+  </body>
+  <footer>
+    Made with ❤️ by <a href="https://www.southcla.ws">Southclaws</a> |
+    <a href="https://github.com/Southclaws/textnot.pictures/"
+      >Contribute here!</a
+    >
+  </footer>
+</html>
